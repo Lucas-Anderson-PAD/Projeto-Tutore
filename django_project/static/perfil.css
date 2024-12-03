@@ -1,0 +1,36 @@
+.profilecontainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem; 
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+
+}
+
+.imgAndMetas {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.metascontainer {
+    display: flex;
+    font-size:15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.buttonholder {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin:auto;
+}
+
+
+
