@@ -1,0 +1,114 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.myclassescontainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 50vw;
+    min-height: 60vh;
+    border-radius: 20px;
+}
+
+.mainholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.myclassesheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.classiconscontainer {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 30em;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    justify-content: center;
+    max-width: 60em;
+}
+
+.classiconscontainer::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+.classicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    min-width: 150px;
+    min-height: 150px;
+    border-width: 2px;
+    border-color: black;
+    border-style: none;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.dateicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    min-width: 90px;
+    min-height: 90px;
+    border-width: 2px;
+    border-color: black;
+    border-style: none;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.dateindicator {
+    font-size: 25px;
+}
+
+.subjectname {
+    font-size: 20px;
+}
+
+.profname {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.classtime {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow:auto;
+    max-height: 100%;
+  }
+
